@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #15004e;
+    color: #ffffff;
+}
+
+h1 {
+    color: #00fbff;
+}
+
+a {
+    color: #521D59;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+strong {
+    color: #650098;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #00fbff;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer a {
+    color: #00fbff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.instagram {
+    background-color: #E1306C;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+instagram:hover {
+    background-color: #C13584;
+}
+
+.github {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.github:hover {
+    background-color: #555555;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
